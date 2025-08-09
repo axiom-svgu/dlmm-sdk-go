@@ -1,32 +1,35 @@
-# Meteora Go SDK
+# dlmm-sdk-go
 
 A GoLang port of the Meteora SDK for building applications on top of **Dynamic CLMM (DLMM)**.
 
-## 📌 Features
+## Features
+
 - Interact with **Meteora's Dynamic CLMM (DLMM)**
 - Manage **liquidity pools**, **swaps**, and **fees**
-- Connect to the **Solana blockchain**
 - Lightweight and optimized for Go applications
 
-## 🚀 Installation
+## Installation
+
 ```sh
 go get github.com/byedeep/meteora-go
 ```
 
 ## Project Structure
+
 ```
 TODO: UPDATE
 ```
 
 ## Quick Start
+
 ```
 package main
 
 import (
     "fmt"
-    "github.com/byedeep/meteora-go-sdk/pkg/dlmm"
+    "github.com/axiom-svgu/dlmm-sdk-go"
 )
- 
+
 func main() {
     pool := clmm.NewPool()
     fmt.Println("Meteora Go SDK initialized:", pool)
@@ -34,9 +37,11 @@ func main() {
 ```
 
 ## Running Tests
+
 ```
 go test ./tests/...
 ```
 
 ## License:
+
 MIT
